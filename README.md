@@ -17,7 +17,7 @@ This project is a real-time license plate recognition system that detects licens
 
 ## Installation
 
-1. Clone the repository:
+1. Clone the repository: git clone https://github.com/rahulbansod519/npd-systems.git
 
 
 2. Navigate to the project directory
@@ -41,10 +41,7 @@ This project is a real-time license plate recognition system that detects licens
 3. The application will process the video feed, detect license plates, and store the results in the database.
 4. View the detected license plate numbers and search/filter results as needed.
 
-## Contributors
 
-- [Your Name](https://github.com/your_username)
-- [Another Contributor](https://github.com/another_username)
 
 
 
