@@ -1,39 +1,55 @@
+# License Plate Recognition System
 
-# Npd-Systems
+A simple License Plate Recognition (LPR) system implemented in Python using Flask, OpenCV, and TensorFlow.
 
-In the final year of engineering, developed the number plate detection system(4 members in a team), and I
-helped to create the TensorFlow number plate detection model which will be able to detect number plates
-on cars.
-this project is mainly focused on detecting the number plate from cars and storing the extracted number
-from number plates and capturing dates and times in a database.
-the technology used in the projects is Python, Flask as a backend framework, TensorFlow for detection of
-the number plate, EasyOcr (OCR library) for extracting letters or numbers from number plate, and
-PHPMyAdmin database for storing numbers, dates, and time.
+## Description
 
+This project is a real-time license plate recognition system that detects license plates from a video feed, recognizes the characters using Optical Character Recognition (OCR), validates the license plate number format, and stores the results in a MySQL database.
 
-## Authors
+## Features
 
-- [@rahulbansod519](https://github.com/rahulbansod519)
-- [@arpitbhagat](https://github.com/arpitbhagat)
-- [@Sarang Hemant Deshpande](https://github.com/the-SARANG)
+- Real-time video feed processing
+- Object detection using TensorFlow and OpenCV
+- Optical Character Recognition (OCR) for license plate number extraction
+- Validation of license plate number format
+- Storage of detected license plate numbers in a database
+- Filtering and searching results by date and time
 
+## Installation
 
-## Deployment
-
-To deploy this project run
-
-```bash
-  python app.py
-```
+1. Clone the repository:
 
 
-## 🚀 About Me
-I'm a full stack developer...
+2. Navigate to the project directory
+  
+3. Install dependencies: pip install -r requirements.txt
+
+  
+4. Set up MySQL database:
+
+   - Create a MySQL database named `npd`.
+   - Set the database URI in `app.py` to match your MySQL database configuration.
+
+5. Run the application: python app.py
+
+6. Access the application in your web browser at `http://localhost:5000`.
+
+## Usage
+
+1. Start the application.
+2. Upload a video file or use the provided sample video.
+3. The application will process the video feed, detect license plates, and store the results in the database.
+4. View the detected license plate numbers and search/filter results as needed.
+
+## Contributors
+
+- [Your Name](https://github.com/your_username)
+- [Another Contributor](https://github.com/another_username)
 
 
-# Hi, I'm Rahul! 👋
-I Rahul, studying computer science at Marathwada Institute of Technology College, Aurangabad. I am working on developing software. my interest is in software development. I am an extrovert person who likes to meet new people. likes to explore new places. I am a techie by nature and loves to talk about new technologies and software development. I enjoy my work. my hobby is traveling and hanging out with friends. I am a friendly and jovial person and like to meet new people and interact with people. my favorite food is Indian and loves to listen to music, travel, develop, and read books.
 
-## 🛠 Skills
-Javascript, HTML, CSS, Python, Tensorflow, Flask...
+
+
+
+
 
